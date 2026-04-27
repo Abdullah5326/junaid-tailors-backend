@@ -88,6 +88,5 @@ userSchema.methods.correctPasswords = async function (
 
 const User = mongoose.model("User", userSchema);
 
-console.log('working')
 
 export default User;
